@@ -2,3 +2,38 @@
 	margin: 0;
 	padding: 0;
 }
+
+body {
+	width: 855px;
+}
+
+/*main section {*/
+	/*background: lavender;*/
+	/*border-radius: 25px;*/
+/*}*/
+
+.comments {
+	float: right;
+}
+
+.comment-input {
+	float: left;
+}
+
+.comments p:nth-child(even) {
+	background: lavender;
+	border-radius: 25px;
+}
+
+.comments p:nth-child(odd) {
+	background: gainsboro;
+	border-radius: 25px;
+}
+
+footer {
+	position:absolute;
+   bottom:0;
+   width:100%;
+   height:60px;   /* Height of the footer */
+   background:#6cf;
+}
